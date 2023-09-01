@@ -1,4 +1,5 @@
 # OS/1337
-### A CLI-oriented toybox/Linux + musl Distribution.
-
+### .github Repo
 ---
+
+## This Repo is used for the OS/1337 Project Site.
