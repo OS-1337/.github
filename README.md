@@ -1,2 +1,4 @@
-# .github
-README for OS/1337 Project
+# OS/1337
+### A CLI-oriented toybox/Linux + musl Distribution.
+
+---
