@@ -10,7 +10,7 @@ This is the OS/1337 Project Organization...
 ### INDEX
 ##### You'll find all the git's here: 
 - [OS/1337](https://github.com/OS-1337/OS1337), a musl + toyboy/Linux Distribution aimed at being a CLI / TUI Desktop.
-- [Default Configurations for OS/1337](https://github.com/OS-1337/dl.srcs.d), including default DNS & NTP Servers for use when none are provided by DHCP or DHCP is being turned off.
+- [Default Configurations for OS/1337](https://github.com/OS-1337/conf.d), including default DNS & NTP Servers for use when none are provided by DHCP or DHCP is being turned off.
 - [spm](https://github.com/OS-1337/spm), the Simple Package Manager for OS/1337
 - [Packages](https://github.com/OS-1337/pkgs) and default repository for OS/1337 and spm
 - [Source Code](https://github.com/OS-1337/os1337.github.io) for the [OS/1337 Website](https://os1337.com), which is pretty minimalist.
