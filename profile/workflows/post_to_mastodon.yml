@@ -1,0 +1,32 @@
+# Mastodon bot posts
+##  Source: https://scidsg.medium.com/automate-posts-to-mastodon-with-github-actions-eb73a921c037
+### This should post to the bot account setup for this:
+### https://infosec.exchange/@OS1337_git
+### @OS1337_git@infosec.exchange
+
+name: Post to Mastodon on PR Merge
+
+on:
+  pull_request:
+    types:
+      - closed
+
+jobs:
+  post_to_mastodon:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Post to Mastodon
+        run: |
+          curl -X POST -H "Authorization: Bearer ${{ secrets.MASTODON_ACCESS_TOKEN }}" \
+          -F "status=Pull request #${{ github.event.pull_request.number }} merged: ${{ github.event.pull_request.title }}" \
+          https://infosec.exchange/api/v1/statuses
+
+##  TODO:   Integrate post-on-commit / push / merge without bloating it.
+### See https://joshuaiz.com/words/post-to-mastodon-on-commit-with-github-actions for some details.
+
+##  TODO:   Add some further testing to it.
+### See https://ellietheyeen.github.io/2023/11/06/github-actions-post-on-mastodon.html for some details.
+
+##  TODO:   Compare with existing GitHub Action on Marketplace:
+### See https://github.com/marketplace/actions/any-feed-to-mastodon
