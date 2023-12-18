@@ -12,11 +12,11 @@
 - Still a Work in Progress...
 ###
 
-#### It posts to [@OS1337_git@infosec.exchange](https://infosec.exchange/@OS1337_git) as a seperate account.
-- the main Mastodon account, [@OS1337@infosec.exchange ](https://infosec.exchange/@OS1337) is not automated.
-  - This is done to reduce clutter since not everyone may want to see every commit, push, merge, pull request and so forth in their timeline...
+#### It posts to [@OS1337_git@infosec.exchange](https://infosec.exchange/@OS1337_git) as a seperate bot account.
+### the main Mastodon account, [@OS1337@infosec.exchange ](https://infosec.exchange/@OS1337) is not to be automated!
+This is done to reduce clutter since not everyone may want to see every commit, push, merge, pull request and so forth in their timeline...
 
-It is inspired by the [linux](https://infosec.exchange/@linux@mstdn.social) and [pkgsrcchanges](https://infosec.exchange/@pkgsrcchanges@mstdn.social) Bots on [mstdn.social](https://mstdn.social/).
+###### It is inspired by the [linux](https://infosec.exchange/@linux@mstdn.social) and [pkgsrcchanges](https://infosec.exchange/@pkgsrcchanges@mstdn.social) Bots on [mstdn.social](https://mstdn.social/).
 ###
 
 --- 
