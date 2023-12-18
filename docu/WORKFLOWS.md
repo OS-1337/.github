@@ -3,7 +3,7 @@
 
 ---
 ####
-## Used [Workflows](profile/workflows)
+## Used [Workflows](https://github.com/OS-1337/.github/tree/main/profile/workflows)
 
 ###
 ### [Mastodon Poster](profile/workflows/post_to_mastodon.yml)
